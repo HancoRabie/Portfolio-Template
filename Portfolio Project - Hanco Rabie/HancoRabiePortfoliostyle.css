@@ -1,0 +1,131 @@
+#header {
+    display:flex;
+    flex-wrap:wrap;
+    margin: 50px;
+    justify-content:space-between;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+
+.zoom:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+
+#logo{
+    display:flex;
+    height: 100px;
+    width: 100px;
+    background-color:black;
+}
+
+ 
+#name{
+    display:flex;
+    flex-wrap:wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 65px;
+}
+
+
+#sub-name-text{
+    display:flex;
+    justify-content:flex-end;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(56, 0, 0, 0.777);
+    font-size: 18px;
+}
+
+
+#hr {
+    display:flex;
+    height: 5px;
+    background-color: #7d97ad;
+}
+
+
+#hero-container{
+    display:flex;
+    margin-top: 1em;
+    width: 100%;
+    justify-content:space-around;
+}
+
+
+#hero-picture{
+    display:flex;
+    flex: 1 0 15em;
+    min-width: 15em;
+    max-width: 100%;
+
+}
+
+
+#featured-works-text{
+    display:flex;
+    justify-content: center;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7d97ad;
+}
+
+
+#three-article-works{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+
+.image{
+    display:flex;
+    max-height: 250px;
+    max-width: 300px;
+    transition: transform .2s;
+}
+
+
+.image-and-text{
+    display:flex;
+    flex-direction:column;
+}
+
+
+p, h2{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0;
+}
+
+
+#img1-text, #img2-text, #img3-text{
+    display:flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7d97ad;
+    padding: 1rem;
+}
+
+
+#img1-link, #img2-link, #img3-link{
+    display:flex;
+    background-color: darkblue;
+}
+
+
+.footer {
+    display:flex;
+    background-color: blue;
+}
